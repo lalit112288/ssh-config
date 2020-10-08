@@ -38,8 +38,8 @@ date=$(date| cut -d I -f1)
 #      exit
 # fi
 #cd test
-git add .
-git commit -m "$date"
+#git add .
+git commit -a -m "$date"
 #git remote add origin git@github.com:lalit112288/lalit.git
 #git push --set-upstream origin master
 git push -u origin master
